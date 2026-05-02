@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   res.end('Hello DevOps! Phien ban 1.0 (Blue Environment)\n');
 });
 
-const PORT = 8080;
+const PORT = 1111;
 server.listen(PORT, () => {
   console.log(`Server dang chay tai port ${PORT}`);
 });
